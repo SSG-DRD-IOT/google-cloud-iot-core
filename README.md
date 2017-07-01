@@ -28,6 +28,7 @@ As connected objects begin to be become more common in industrial applications, 
 
 **Industrie 4.0 Workgroups**
 Co-Chair Henning Kagermann and Siegfried Dais
+
 | WG# | Description    | Chairperson |
 | :----------: | -------------- | ----------- |
 | 1 | The Smart Factory       | Manfred Wittenstein|
@@ -40,7 +41,7 @@ Co-Chair Henning Kagermann and Siegfried Dais
 
 The design priciples can be thought of as a guiding philosophy. We will see how Messaging Services.
 
-These horizontal design principles are sourced from the Wikipedia articule on [Industry 4.0](https://en.wikipedia.org/wiki/Industry_4.0#Design_principles).
+These horizontal design principles are sourced from the Wikipedia article on [Industry 4.0](https://en.wikipedia.org/wiki/Industry_4.0#Design_principles).
 
 - **Interoperability**: The ability of machines, devices, sensors, and people to connect and communicate with each other via the Internet of Things (IoT)
 - **Information transparency**: The ability of information systems to create a virtual copy of the physical world by enriching digital plant models with sensor data. This requires the aggregation of raw sensor data to higher-value context information.
@@ -52,13 +53,13 @@ These horizontal design principles are sourced from the Wikipedia articule on [I
 
 ### Diagram of Simple MQTT Interaction
 MQTT Pub/Sub
+![](https://i.imgur.com/kClZdzu.png)
 
-```sequence
+<!-- ```sequence
 Subscriber->Broker: sub(topic)
 Publisher->Broker: pub(topic, data)
-Broker-->Subscriber: pub(topic, data)
-
-```
+Broker->Subscriber: pub(topic, data)
+``` -->
 
 ## Google Cloud IoT Core: Bash Shell Client
 
