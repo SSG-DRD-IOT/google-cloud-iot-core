@@ -1,5 +1,7 @@
 # Experiements with Google Cloud IoT Core
 
+[TOC]
+
 These excercises demonstrate cloud based messaging in an Industrial factory setting.
 
 We will begin with basic, practical excercises and then move toward specific examples that illustrate the themes of [Industrial 4.0](https://en.wikipedia.org/wiki/Industry_4.0).
@@ -8,8 +10,7 @@ Let's begin with a quote from American engineer Charles Kettering (1876 to 1958)
 
 > If you’re doing something the same way you have been doing
 > it for ten years, the chances are you are doing it wrong.
->
-> Engineer Charles Kettering
+> [name=Charles Kettering, Engineer] [color=lightgreen]
 
 
 ## Origin and Themes of Industry 4.0
@@ -28,7 +29,6 @@ As connected objects begin to be become more common in industrial applications, 
 
 **Industrie 4.0 Workgroups**
 Co-Chair Henning Kagermann and Siegfried Dais
-
 | WG# | Description    | Chairperson |
 | :----------: | -------------- | ----------- |
 | 1 | The Smart Factory       | Manfred Wittenstein|
@@ -41,7 +41,7 @@ Co-Chair Henning Kagermann and Siegfried Dais
 
 The design priciples can be thought of as a guiding philosophy. We will see how Messaging Services.
 
-These horizontal design principles are sourced from the Wikipedia article on [Industry 4.0](https://en.wikipedia.org/wiki/Industry_4.0#Design_principles).
+These horizontal design principles are sourced from the Wikipedia articule on [Industry 4.0](https://en.wikipedia.org/wiki/Industry_4.0#Design_principles).
 
 - **Interoperability**: The ability of machines, devices, sensors, and people to connect and communicate with each other via the Internet of Things (IoT)
 - **Information transparency**: The ability of information systems to create a virtual copy of the physical world by enriching digital plant models with sensor data. This requires the aggregation of raw sensor data to higher-value context information.
@@ -67,7 +67,7 @@ Broker->Subscriber: pub(topic, data)
 For the convenience of being able to copy these commands directly from this document to your Bash Shell, we will setup a couple of environment variables.
 
 :::info
-Insert information that is particular to your project in the command line below, replacing the text in **<>**
+Insert infomation that is particular to your project in the command line below, replacing the text in **<>**
 :::
 
 ``` bash
