@@ -29,6 +29,7 @@ As connected objects begin to be become more common in industrial applications, 
 
 **Industrie 4.0 Workgroups**
 Co-Chair Henning Kagermann and Siegfried Dais
+
 | WG# | Description    | Chairperson |
 | :----------: | -------------- | ----------- |
 | 1 | The Smart Factory       | Manfred Wittenstein|
